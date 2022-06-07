@@ -1,0 +1,33 @@
+<template>
+  <ul>
+    <li>
+      <router-link to="/">Home</router-link>
+    </li>
+    <li>
+      <router-link to="/login">Login</router-link>
+    </li>
+    <li>
+      <router-link to="/Productos">Productos</router-link>
+    </li>
+    <li>
+      <router-link to="/Pedidos">Pedidos</router-link>
+    </li>
+  </ul>
+</template>
+
+<script>
+export default {
+  name: "Navigation"
+};
+</script>
+
+<style>
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  padding: 1em 0.5em;
+}
+</style>
